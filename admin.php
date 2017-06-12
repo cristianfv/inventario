@@ -129,7 +129,7 @@ include_once('funciones_basicas.php');
 			<!-- left menu ends -->
 			
 			<div id="content" class="span10">
-			<!-- content starts -->
+			<!-- content startssdf -->
 			
 
 			<div>
