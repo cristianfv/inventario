@@ -40,15 +40,7 @@ if ($conexion->connect_errno) {
     printf("No se puede conectar con el servidor MySQL: %s\n", $conexion->connect_error);
     exit();
 }
-//SET NAMES
-//$consulta="SHOW CREATE DATABASE `".$bd."`;";
-//$respuesta = $conexion->query($consulta)or die("No se puede ejecutar la consulta: $consulta MySQL: \n". $conexion->error);
-//if ($fila = $respuesta->fetch_array(MYSQLI_NUM)) {//CREATE DATABASE `kk` /*!40100 DEFAULT CHARACTER SET latin1 */
-//        $s= stristr($fila[1]," SET ");
-//        $z=explode(" ",$s);
-//        $SetNames="/*!40101 SET NAMES ".$z[2]." */;";
-//}else $SetNames="/*!40101 SET NAMES utf8 */;";
-//$respuesta->free();
+
 
 
 // Se busca las tablas en la base de datos 
