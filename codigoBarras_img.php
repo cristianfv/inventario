@@ -1,11 +1,5 @@
 <?php
-/*
-Codificación seguida para representar el código de barras:
-   - Las cifras se representan por (la cifra + 5) en binario natural
-   - Cifra 5 al principio (|-|-) más 2 espacios a mayores de lo normal entre cifras
-   - 4 unidades por dígito, y 2 de espaciado entre cada dígito.
-   - 3 espacios tras el último número, y 1011.
-*/
+
 $altura = 50;
 $cod = $_GET['numero'];
 
